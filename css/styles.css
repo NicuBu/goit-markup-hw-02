@@ -209,6 +209,7 @@ body{
 /* Portofolio filters/buttons section style */
 
 .btn button{
+cursor: pointer;
 border-style: none;
 background-color: var(--grey-white);
 font-family: var(--primary-font);
