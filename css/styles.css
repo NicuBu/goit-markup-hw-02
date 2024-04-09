@@ -1,8 +1,98 @@
 :root {
-    --orange: #ff6c00;
+    --dark-blue: #2F303A;
     --white: #ffffff;
-    --light-black: #9da4bd;
-    --black: #303030;
-    --primary-font: 'Open sans', sans-serif;
+    --light-blue: #2196F3;
+    --light-black:#757575;
+    --black: #212121;
+    --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
 }
+body{
+    font-family: var(--primary-font);
+}
+/* Header section style */
+.header {
+    background-color: #ffffff;
+}
+
+.header__logo a {
+        text-decoration:none;
+        font-family: var(--secondary-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 30px;
+        color: var(--light-blue);    
+}
+
+.header__navigation ul {
+    list-style:none;
+}
+.header__navigation a {
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--black);
+}
+
+.header__navigation a:hover {
+    color: var(--light-blue);
+}
+.header__info__mail {
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--light-blue);
+}
+.header__info__tel {
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--light-black);
+}
+/* Header section style */
+.intro{
+    color: var(--white);
+    background-color: var(--dark-blue);
+    
+}
+.intro__title{
+    
+    font-family: var(--primary-font);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: var(--white);
+    text-align: center;
+    letter-spacing: 2.5px;
+}
+.intro__servrequest{
+    border-radius: 4px;
+    background-color: var(--light-blue);
+    color: var(--white);
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;  
+}
+.details h5{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color:var(--black)
+}
+.details p {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color:var(--light-black);
+}
+
