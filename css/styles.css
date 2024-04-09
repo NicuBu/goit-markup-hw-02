@@ -15,17 +15,21 @@ body{
     background-color: #ffffff;
 }
 
-.header__logo a {
+.header__logo a  {
         text-decoration:none;
         font-family: var(--secondary-font);
         font-weight: 700;
         font-size: 26px;
         line-height: 30px;
-        color: var(--light-blue);    
+        color: var(--black);    
+}
+
+.header__logo__mcol {
+    color: var(--light-blue);
 }
 
 .header__navigation ul {
-    list-style:none;
+    list-style: none;
 }
 .header__navigation a {
     text-decoration: none;
@@ -39,12 +43,23 @@ body{
 .header__navigation a:hover {
     color: var(--light-blue);
 }
-.header__info__mail {
+.header__navigation a:focus {
+    color: var(--light-blue);
+}
+.header__info__mail  {
     text-decoration: none;
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+    color: var(--light-black);
+        
+}
+
+.header__info__mail:hover {
+    color: var(--light-blue);
+}
+.header__info__mail:focus {
     color: var(--light-blue);
 }
 .header__info__tel {
@@ -54,8 +69,16 @@ body{
     font-size: 14px;
     line-height: 16px;
     color: var(--light-black);
+
 }
-/* Header section style */
+.header__info__tel:hover {
+    color: var(--light-blue);
+}
+.header__info__tel:focus {
+    color: var(--light-blue);
+}
+
+/* Main section style */
 .intro{
     color: var(--white);
     background-color: var(--dark-blue);
@@ -80,6 +103,9 @@ body{
     font-size: 16px;
     line-height: 30px;
     text-align: center;  
+}
+.intro__servrequest:hover{
+    border-radius: 0;
 }
 .details h5{
     font-family: var(--primary-font);
